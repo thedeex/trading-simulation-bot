@@ -1,0 +1,39 @@
+{
+  "name": "deex-trading-simulation-bot",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "bot": "node ./bin/worker",
+    "build": "node_modules/.bin/ncc build bin/worker.js -o build"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "deexdex": "git+https://github.com/thedeex/deexdex.git",
+    "deexdex-api": "git+https://github.com/thedeex/deexdex-api.git",
+    "deexdex-ecc": "git+https://github.com/thedeex/deexdex-ecc.git",
+    "deexdex-serializer": "git+https://github.com/thedeex/deexdex-serializer.git",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "lodash": "latest",
+    "morgan": "~1.9.1",
+    "nconf": "^0.10.0",
+    "pug": "2.0.0-beta11",
+    "winston": "2.4.4",
+    "winston-daily-rotate-file": "^3.9.0",
+    "telegram-bot-api": "2.0.0",
+    "minimist": "~1.2.5",
+    "pg": "7.12.1",
+    "pg-hstore": "2.3.3",
+    "readline-sync": "1.4.10",
+    "request": "2.88.0",
+    "request-promise-native": "1.0.7",
+    "sequelize": "5.16.0",
+    "sequelize-cli": "5.5.0"
+  },
+  "devDependencies": {
+    "@zeit/ncc": "~0.21.1",
+    "copyfiles": "~2.2.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}

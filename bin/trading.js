@@ -19,7 +19,7 @@ if (_.size(available_accounts)<2) {
 
 let instanceName = common.getArgv('instance');
 if (!instanceName) {
-    logger.error(`Parameter --istance is not set.`);
+    logger.error(`Parameter --instance is not set.`);
     process.exit();
 }
 

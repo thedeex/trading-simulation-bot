@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "bot": "node ./bin/worker",
+    "supply": "node ./bin/worker",
+    "trading": "node ./bin/trading",
     "build": "node_modules/.bin/ncc build bin/worker.js -o build"
   },
   "dependencies": {

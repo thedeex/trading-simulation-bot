@@ -67,7 +67,18 @@
 
 ### Setup
  - Clone source from github to your directory
- - Install requrements `npm install`
+ - Install requirements `npm install`
 
-### Run
-npm run bot
+### Run supply bot (make bids in order book  - Buy and Sell items. )
+ - npm run supply
+
+
+### Run trading simulation instance
+Instance will search orders from your orderbook and create bids for every compatible bid
+ - npm run trading
+ 
+ 
+ 
+### Stability and performance
+Use local instance of DEEX node.
+DOCS: https://github.com/thedeex/deex.blockchain
